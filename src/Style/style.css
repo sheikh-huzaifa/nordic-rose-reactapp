@@ -1,0 +1,310 @@
+@font-face {
+    font-family: myfont;
+    src: url(../Assect/font/NewYork\ PERSONAL\ USE.otf);
+}
+
+body{
+    width: 100%;
+    font-family: myfont;
+}
+
+#nav_bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 30px 20px;
+    border-bottom: 0.05rem solid #f0f0f0;
+    
+}
+
+#nav_bar h1{
+    align-items: flex-start;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+#nav_bar ul{
+    display: flex;
+    text-decoration: none;
+    align-content: center;
+    
+}
+
+#nav_bar ul li{
+    list-style-type: none;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    
+}
+
+#nav_bar ul li a {
+    text-decoration: none;
+    font-size: larger;
+    letter-spacing: 0.5rem;
+    margin: 0rem 1rem;
+}
+
+
+
+
+
+
+#section1 h1{
+    margin: 0rem 30rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+
+#section1 p{
+    margin: 0rem 30rem;
+    padding:0rem 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+#section1 img{
+    display: block;
+    width: 1440px
+    
+}
+
+
+#section2{
+    margin: 3rem 30rem;
+
+
+}
+
+#section2_1{
+    display: flex;
+    justify-content: space-between;
+}
+
+#section2_1 div p{
+    margin-left: -6rem;
+    margin-bottom: -1rem;
+}
+
+#section2_1 span{
+    margin: 1rem;
+    border: 0.05rem solid #f5f5f5;
+}
+
+#section2_1 span img{
+    padding: 5px;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 0.05rem solid #f5f5f5;
+
+}
+
+#section2_img{
+    width: 30rem;
+}
+
+#section2 ul{
+    margin-top: 2rem;
+    margin-left: -1.5rem;
+    padding-right: 8rem;
+    margin-bottom: 3rem;
+
+}
+#section2 ul li{
+    margin-bottom: 1rem;
+}
+
+
+#social{
+    display: flex;
+    margin-top: 2rem;
+}
+
+#social1{
+    justify-content: center;
+    display: flex;
+    width: 50%;
+    border: 0.05rem solid #f5f5f5;
+    padding:5px;
+}
+
+#social1 img{
+    width: 1.5rem;
+    height: 1.5rem;
+    padding-top: 12px;
+    padding-right: 5px;
+    align-content: center;
+}
+
+#social2{
+    justify-content: center;
+    display: flex;
+    width: 50%;
+    border: 0.05rem solid #f5f5f5;
+    padding:5px;
+}
+
+#social2 img{
+    width: 1.5rem;
+    height: 1.5rem;
+    padding-top: 12px;
+    padding-right: 5px;
+    align-content: center;
+}
+
+#section2_2{
+    display: flex;
+
+}
+
+#section2_2 img{
+    height: 3rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+}
+
+
+#line{
+    display: flex;
+    justify-items: center;
+}
+
+#line hr{
+    border: 0.05rem solid black ;
+    width: 100%;
+    height: 0.01rem;
+    margin-top: 2rem;
+    
+}
+
+
+
+#section3{
+    margin-left: 20rem;
+    margin-right: 20rem;
+   
+}
+#section3 h1{
+    text-align: center;
+}
+
+#section3_1{
+    display: flex;
+    margin-left: -12rem;
+    
+}
+
+#section3_1 div{
+    width: 30%;
+    padding-left: 5rem;
+
+    
+}
+
+
+
+
+#forum{
+    margin:3rem 30rem ;
+}
+
+
+#forum hr{
+    border: 0.01rem solid black;
+}
+
+#forum div{
+    border: 0.05rem solid black;
+    margin-top: -0.5rem;
+    padding: 1rem 2rem 2rem 2rem;
+}
+
+#forum div h1{
+    text-align: center;
+    font-size: 2rem;
+}
+
+#forum div p{
+    text-align: center;
+}
+
+#forum div form{
+    text-align: center;
+}
+
+#forum div form input{
+    height: 1.5rem;
+}
+
+#forum div form button{
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: black;
+    color: #f0f0f0;
+
+}
+
+#footer{
+    background-color: black;
+}
+
+#footer div{
+    margin-top: 3rem;
+    margin-left:30rem ;
+    margin-right: 30rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+#footer div h1{
+    color: #f5f5f5;
+    font-weight: 400;
+}
+
+#footer div p{
+    color: #f0f0f0;
+    letter-spacing: 1px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: medium;
+    
+}
+
+#footer div a{
+    color: #f5f5f5;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    letter-spacing: 3px;
+}
+
+#footer p{
+    text-align: center;
+    color: #f0f0f0;
+    padding-bottom: 3rem;
+}
+
+/* utility classes */
+
+p{
+    letter-spacing: 0.05rem;
+    font-family: myfont large,bold;
+}
+
+#caption{
+    letter-spacing: 0.05rem;
+    margin: 0rem 3rem 3rem 3rem;
+    font-family: myfont small , regular;
+    font-size: small;
+    text-align: center;
+}
+
+li{
+    font-family: myfont small;
+}
+
+h1{
+    font-family: myfont extra large ;
+}
